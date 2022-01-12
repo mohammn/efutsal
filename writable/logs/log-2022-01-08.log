@@ -1,0 +1,67 @@
+CRITICAL - 2022-01-08 10:58:15 --> Undefined variable: jamid
+#0 C:\xampp\htdocs\efutsal\app\Views\beranda.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\efutsal\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\efutsal\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\efutsal\system\Common.php(1097): CodeIgniter\View\View->render('beranda', Array, true)
+#4 C:\xampp\htdocs\efutsal\app\Controllers\Beranda.php(18): view('beranda', Array)
+#5 C:\xampp\htdocs\efutsal\system\CodeIgniter.php(824): App\Controllers\Beranda->index()
+#6 C:\xampp\htdocs\efutsal\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+#7 C:\xampp\htdocs\efutsal\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\efutsal\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-08 10:58:34 --> A non well formed numeric value encountered
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well form...', 'C:\\xampp\\htdocs...', 44, Array)
+#1 C:\xampp\htdocs\efutsal\app\Views\beranda.php(44): date('Y-m-d', '08-01-2022')
+#2 C:\xampp\htdocs\efutsal\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\efutsal\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\efutsal\system\Common.php(1097): CodeIgniter\View\View->render('beranda', Array, true)
+#5 C:\xampp\htdocs\efutsal\app\Controllers\Beranda.php(18): view('beranda', Array)
+#6 C:\xampp\htdocs\efutsal\system\CodeIgniter.php(824): App\Controllers\Beranda->index()
+#7 C:\xampp\htdocs\efutsal\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+#8 C:\xampp\htdocs\efutsal\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\efutsal\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-08 23:15:24 --> Undefined offset: -1
+#0 C:\xampp\htdocs\efutsal\app\Views\beranda.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\efutsal\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\efutsal\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\efutsal\system\Common.php(1097): CodeIgniter\View\View->render('beranda', Array, true)
+#4 C:\xampp\htdocs\efutsal\app\Controllers\Beranda.php(18): view('beranda', Array)
+#5 C:\xampp\htdocs\efutsal\system\CodeIgniter.php(824): App\Controllers\Beranda->index()
+#6 C:\xampp\htdocs\efutsal\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+#7 C:\xampp\htdocs\efutsal\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\efutsal\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-08 23:15:24 --> Undefined offset: -1
+#0 C:\xampp\htdocs\efutsal\app\Views\beranda.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\efutsal\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\efutsal\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\efutsal\system\Common.php(1097): CodeIgniter\View\View->render('beranda', Array, true)
+#4 C:\xampp\htdocs\efutsal\app\Controllers\Beranda.php(18): view('beranda', Array)
+#5 C:\xampp\htdocs\efutsal\system\CodeIgniter.php(824): App\Controllers\Beranda->index()
+#6 C:\xampp\htdocs\efutsal\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+#7 C:\xampp\htdocs\efutsal\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\efutsal\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-08 23:22:04 --> Undefined offset: -1
+#0 C:\xampp\htdocs\efutsal\app\Views\beranda.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\efutsal\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\efutsal\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\efutsal\system\Common.php(1097): CodeIgniter\View\View->render('beranda', Array, true)
+#4 C:\xampp\htdocs\efutsal\app\Controllers\Beranda.php(18): view('beranda', Array)
+#5 C:\xampp\htdocs\efutsal\system\CodeIgniter.php(824): App\Controllers\Beranda->index()
+#6 C:\xampp\htdocs\efutsal\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+#7 C:\xampp\htdocs\efutsal\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\efutsal\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-08 23:26:02 --> Undefined offset: -1
+#0 C:\xampp\htdocs\efutsal\app\Views\beranda.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\efutsal\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\efutsal\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\efutsal\system\Common.php(1097): CodeIgniter\View\View->render('beranda', Array, true)
+#4 C:\xampp\htdocs\efutsal\app\Controllers\Beranda.php(18): view('beranda', Array)
+#5 C:\xampp\htdocs\efutsal\system\CodeIgniter.php(824): App\Controllers\Beranda->index()
+#6 C:\xampp\htdocs\efutsal\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+#7 C:\xampp\htdocs\efutsal\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\efutsal\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

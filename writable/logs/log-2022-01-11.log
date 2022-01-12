@@ -1,0 +1,25 @@
+CRITICAL - 2022-01-11 13:13:37 --> Undefined offset: 19
+#0 C:\xampp\htdocs\efutsal\app\Views\beranda.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 73, Array)
+#1 C:\xampp\htdocs\efutsal\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\efutsal\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\efutsal\system\Common.php(1097): CodeIgniter\View\View->render('beranda', Array, true)
+#4 C:\xampp\htdocs\efutsal\app\Controllers\Beranda.php(22): view('beranda', Array)
+#5 C:\xampp\htdocs\efutsal\system\CodeIgniter.php(824): App\Controllers\Beranda->index()
+#6 C:\xampp\htdocs\efutsal\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beranda))
+#7 C:\xampp\htdocs\efutsal\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\efutsal\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-11 21:56:18 --> Undefined property: App\Controllers\Admin::$pengturanModel
+#0 C:\xampp\htdocs\efutsal\app\Controllers\Admin.php(117): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 117, Array)
+#1 C:\xampp\htdocs\efutsal\system\CodeIgniter.php(824): App\Controllers\Admin->ubahPass()
+#2 C:\xampp\htdocs\efutsal\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\efutsal\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\efutsal\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-11 22:10:58 --> syntax error, unexpected ';'
+#0 C:\xampp\htdocs\efutsal\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('admin/ubahPass')
+#1 C:\xampp\htdocs\efutsal\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('admin/ubahPass')
+#2 C:\xampp\htdocs\efutsal\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\efutsal\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\efutsal\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

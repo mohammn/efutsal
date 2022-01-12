@@ -1,0 +1,33 @@
+CRITICAL - 2022-01-09 23:02:42 --> Undefined variable: tglHari
+#0 C:\xampp\htdocs\efutsal\app\Views\beranda.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 61, Array)
+#1 C:\xampp\htdocs\efutsal\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\efutsal\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\efutsal\system\Common.php(1097): CodeIgniter\View\View->render('beranda', Array, true)
+#4 C:\xampp\htdocs\efutsal\app\Controllers\Admin.php(24): view('beranda', Array)
+#5 C:\xampp\htdocs\efutsal\system\CodeIgniter.php(824): App\Controllers\Admin->index()
+#6 C:\xampp\htdocs\efutsal\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\efutsal\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\efutsal\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-09 23:03:11 --> Undefined variable: tglHari
+#0 C:\xampp\htdocs\efutsal\app\Views\beranda.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 61, Array)
+#1 C:\xampp\htdocs\efutsal\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\efutsal\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\efutsal\system\Common.php(1097): CodeIgniter\View\View->render('beranda', Array, true)
+#4 C:\xampp\htdocs\efutsal\app\Controllers\Admin.php(24): view('beranda', Array)
+#5 C:\xampp\htdocs\efutsal\system\CodeIgniter.php(824): App\Controllers\Admin->index()
+#6 C:\xampp\htdocs\efutsal\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\efutsal\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\efutsal\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-09 23:03:52 --> Undefined variable: tglHari
+#0 C:\xampp\htdocs\efutsal\app\Views\beranda.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 61, Array)
+#1 C:\xampp\htdocs\efutsal\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\efutsal\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\efutsal\system\Common.php(1097): CodeIgniter\View\View->render('beranda', Array, true)
+#4 C:\xampp\htdocs\efutsal\app\Controllers\Admin.php(24): view('beranda', Array)
+#5 C:\xampp\htdocs\efutsal\system\CodeIgniter.php(824): App\Controllers\Admin->index()
+#6 C:\xampp\htdocs\efutsal\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\efutsal\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\efutsal\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
