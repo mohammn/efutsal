@@ -32,7 +32,7 @@
                 <a href="#" onclick="tryLaporan()" class="badge badge-info">Laporan</a>
                 <a href="#" onclick="tryPengaturan()" class="badge badge-info">Pengaturan</a>
                 <a href="#" onclick="tryPass()" class="badge badge-info">Password</a>
-                <a href="<?= base_url("/admin/logout") ?>" class="badge badge-info">Logout</a>
+                <a href="<?= base_url("/beranda/logout") ?>" class="badge badge-info">Logout</a>
             </div>
             <div class="col-md-5">
                 <div class="card">

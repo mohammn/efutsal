@@ -124,10 +124,4 @@ class Admin extends BaseController
         $this->pesanModel->delete($this->request->getPost("id"));
         echo json_encode("");
     }
-
-    public function logout()
-    {
-        session()->remove('id');
-        return redirect()->to(base_url() . "/beranda");
-    }
 }

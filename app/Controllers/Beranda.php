@@ -65,4 +65,10 @@ class Beranda extends BaseController
             echo json_encode("Password salah :(");
         }
     }
+
+    public function logout()
+    {
+        session()->remove('id');
+        return redirect()->to(base_url() . "/beranda");
+    }
 }
